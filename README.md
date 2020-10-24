@@ -1,4 +1,4 @@
-# Plantilla de talleres
+# Taller de introducción a LaTeX
 
 <div align="center">
     <img width="200" src="./docs/images/logoasl.svg" alt="Aula Software Libre de la UCO">
@@ -10,6 +10,4 @@
 
 </div>
 
-Esta plantilla se puede usar para documentar los talleres y actividades del [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
-
-Simplemente usa el botón "Use this template" en vez de clonar el repositorio desde Github.
+Este taller forma parte de las actividades del [Aula de Software Libre de la Universidad de Córdoba](https://www.uco.es/aulasoftwarelibre).
