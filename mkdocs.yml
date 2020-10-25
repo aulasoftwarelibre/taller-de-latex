@@ -1,60 +1,48 @@
-site_name: "Plantilla de talleres"
-site_author: "Aula de Software Libre <aulasoftwarelibre@uco.es>"
-site_description: "Plantilla para crear documentación de los talleres del aula"
-repo_name: "aulasoftwarelibre/plantilla-talleres"
-repo_url: "https://github.com/aulasoftwarelibre/plantilla-talleres.git"
+site_name: 'Taller de LaTeX'
+site_author: 'Pablo Rodríguez Guillén <pablorodriguezguillen@gmail.com>'
+site_description: 'Taller de introducción a LaTeX'
+site_url: 'https://github.com/aulasoftwarelibre/taller-de-latex.git'
+
+repo_name: 'aulasoftwarelibre/taller-de-latex'
+repo_url: 'https://github.com/aulasoftwarelibre/taller-de-latex.git'
 
 theme:
-  name: "material"
-  language: "es"
-  logo: "images/pinhuevo-blanco.svg"
-  favicon: "images/logoasl.png"
+  name: 'material'
+  language: 'es'
+  favicon: 'images/logoasl.svg'
+  features:
+    - instant
+
+plugins:
+  - awesome-pages
+  - search
 
 extra_css: [extra.css]
 extra:
   social:
-    - type: "github"
-      link: "https://github.com/aulasoftwarelibre"
-    - type: "twitter"
-      link: "https://twitter.com/aulasl"
-    - type: "facebook"
-      link: "https://facebook.com/aulasoftwarelibre"
-    - type: "instagram"
-      link: "https://instagram.com/aulasoftwarelibre"
-  feature:
-    tabs: true
+    - icon: fontawesome/brands/github
+      link: 'https://github.com/aulasoftwarelibre'
+    - icon: fontawesome/brands/twitter
+      link: 'https://twitter.com/aulasl'
+    - icon: fontawesome/brands/facebook
+      link: 'https://facebook.com/aulasl'
+    - icon: fontawesome/brands/instagram
+      link: 'https://instagram.com/aulasoftwarelibre'
+    - icon: fontawesome/brands/youtube
+      link: 'https://www.youtube.com/channel/UCfWiR5j-cbKcGTi9faK8P6w'
 
 markdown_extensions:
   - admonition: ~
+  - attr_list: ~
   - codehilite:
       guess_lang: false
       linenums: true
   - def_list: ~
   - footnotes: ~
-  - mdx_inline_graphviz: ~
   - toc:
       permalink: true
-  - pymdownx.arithmatex
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.magiclink
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.superfences
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
+  - pymdownx.keys: ~
 
-nav:
-  - Inicio: index.md
-#
-# Google Analytics
-# google_analytics:
-#   - "UA-51754922-1"
-#   - "auto"
+google_analytics:
+  - 'UA-51754922-1'
+  - 'auto'
