@@ -1,2 +1,11 @@
 arrange:
   - index.md
+  - introduction.md
+  - documents.md
+  - structure.md
+  - document-body.md
+  - images-and-tables.md
+  - mathematics.md
+  - bibliography.md
+  - packages-and-tips.md
+  - references.md
